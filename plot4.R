@@ -77,7 +77,7 @@ plot(converted_dt, power_subset$Voltage,
      ylab = "Voltage")
 
 #plot 2,2
-plot(converted_dt, power_subset$Global_active_power,
+plot(converted_dt, power_subset$Global_reactive_power,
      type = "l",
      xlab = "datetime",
      ylab = "Global_reactive_power")
